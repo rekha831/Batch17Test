@@ -32,6 +32,7 @@ public class HomePageTest extends TestBase {
 		String shuttleHomeText=spi.spiceShuttle();
 		Assert.assertEquals(shuttleHomeText, "DESTINATION EXPERIENCES","shuttleHomeText not matching");
 		Reporter.log("shuttleHomeText verified succesfully");
+		System.out.println("test............");
 	}
 
 
